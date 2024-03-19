@@ -1,12 +1,14 @@
 import React from 'react';
+import Image from "next/image";
 import './header.css';
+import Logo from '../img/saleslogo.png'
 
 const Header = () =>{
     return(
         <>
         <div className="content">
         <header>
-        <h1>Salesforce LOGO</h1>
+        <Image src={Logo} alt="Landscape picture" width={150} height={100} />
         <nav>
             <ul>
                 <li><a href="#produtos">Produtos</a></li>

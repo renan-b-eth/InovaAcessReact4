@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Header from "./Header/page";
+import Card from "./Card/page";
+import Einsten from './img/einsten.png'
 
 export default function Home() {
   return (
     <>
       <Header></Header>
       <main>
+      <Image src={Einsten} alt="Landscape picture" className="position-einten" />
         <section id="intro">
             <h2>Bem-vindo à Salesforce</h2>
             <p>Potencialize sua empresa com a Salesforce. 98% dos clientes superam suas metas de ROI.</p>
@@ -22,12 +25,7 @@ export default function Home() {
       <h2 className="pad">Clientes</h2>
       <p className="pad">Veja alguns dos nossos clientes:</p>
       <section id="clientes">
-            <ul>
-                <li>SulAmérica</li>
-                <li>CALOI</li>
-                <li>alelo</li>
-                <li>sumup</li>
-            </ul>
+            <Card></Card>
             <p>
                 <a href="#">Explore todas as histórias de sucesso</a>
                 <a href="tel">Entre em contato descricao</a>

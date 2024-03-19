@@ -1,4 +1,4 @@
-const Footer = () =>{
+const Main = () =>{
     return(
         <>
             <footer>
@@ -9,4 +9,4 @@ const Footer = () =>{
         </>
     )
 }
-export default Footer;
+export default Main;

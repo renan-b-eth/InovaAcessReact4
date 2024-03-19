@@ -118,3 +118,9 @@ main p {
 .pad{
   padding: 20px;
 }
+.card2{
+  background-color: aqua;
+}
+.position-einten{
+  float: right;
+}
