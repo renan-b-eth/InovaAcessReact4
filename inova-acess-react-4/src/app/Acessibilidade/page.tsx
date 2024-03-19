@@ -1,11 +1,19 @@
+import Footer from "../Footer/page";
+import Header from "../Header/page";
+
 const Acessibilidade = () =>{
     return(
         <>
+            <Header></Header>
             <main>
-                <div className="content">
-                    <h1>Acessibilidade</h1>
+                <div className="content-acessibilidade">
+                    <h1>ACESSIBILIDADE</h1>
                 </div>
             </main>
+            <section id="footer">
+            <Footer></Footer>
+
+            </section>
         </>
     )
 }

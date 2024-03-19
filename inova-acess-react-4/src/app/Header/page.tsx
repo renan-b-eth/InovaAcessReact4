@@ -8,7 +8,7 @@ const Header = () =>{
         <>
         <div className="content">
         <header>
-        <Image src={Logo} alt="Landscape picture" width={150} height={100} />
+        <a href="/"><Image src={Logo} alt="Landscape picture" width={150} height={100} /></a>
         <nav>
             <ul>
                 <li><a href="/Produto">Produtos</a></li>

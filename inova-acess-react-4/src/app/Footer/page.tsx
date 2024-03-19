@@ -6,12 +6,12 @@ const Footer = () =>{
             <footer id="rodape">
             <p>
                 <button>Mudar de região </button>
-                <a href="#">Termos de serviços</a> 
-                <a href="#">Declaração de privacidade</a> 
-                <a href="#">Divulgação responsável</a> 
-                <a href="#">Segurance</a> 
-                <a href="#">Contato</a> 
-                <a href="#">Preferências de cookies</a>
+                <a href="#">Termos de serviços </a> 
+                <a href="#">Declaração de privacidade </a> 
+                <a href="#">Divulgação responsável </a> 
+                <a href="#">Segurance </a> 
+                <a href="#">Contato </a> 
+                <a href="#">Preferências de cookies </a>
             </p>
             <p>
                 © Copyright 2022 Salesforce, Inc.

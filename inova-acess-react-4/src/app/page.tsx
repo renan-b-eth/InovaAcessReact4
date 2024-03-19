@@ -3,10 +3,12 @@ import Header from "./Header/page";
 import Card from "./Card/page";
 import Einsten from './img/einsten.png'
 import Footer from "./Footer/page";
+import PrecisaAcessibilidade from "./PrecisaAcessibilidade/page";
 
 export default function Home() {
   return (
     <>
+      <PrecisaAcessibilidade></PrecisaAcessibilidade>
       <Header></Header>
       <main>
       <Image src={Einsten} alt="Landscape picture" className="position-einten efeito2" />

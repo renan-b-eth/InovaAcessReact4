@@ -1,11 +1,19 @@
+import Footer from "../Footer/page";
+import Header from "../Header/page";
+
 const Integrantes = () =>{
     return(
         <>
+            <Header></Header>
             <main>
-                <div className="content">
-                    <h1>Integrantes</h1>
+                <div className="content-integrantes">
+                    <h1>INTEGRANTES</h1>
                 </div>
             </main>
+            <section id="footer">
+            <Footer></Footer>
+
+            </section>
         </>
     )
 }

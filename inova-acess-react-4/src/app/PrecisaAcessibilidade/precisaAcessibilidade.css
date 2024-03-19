@@ -1,0 +1,12 @@
+.content-precisa-acessibilidade{
+    background-color: blueviolet;
+    width: 250px;
+    height: 50px;
+    position: fixed;
+    left: 1080px;
+    top: 500px;
+    text-align: justify;
+}
+.content-precisa-acessibilidade:hover{
+    cursor: pointer;
+}
