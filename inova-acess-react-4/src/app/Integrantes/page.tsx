@@ -1,12 +1,12 @@
-const Main = () =>{
+const Integrantes = () =>{
     return(
         <>
-            <footer>
+            <main>
                 <div className="content">
-                    <h1>FOOTER</h1>
+                    <h1>Integrantes</h1>
                 </div>
-            </footer>
+            </main>
         </>
     )
 }
-export default Main;
+export default Integrantes;

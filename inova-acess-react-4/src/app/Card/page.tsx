@@ -12,10 +12,10 @@ const Card = () =>{
             <main>
                 <div className="content2">
                     <ul>
-                        <li className="card"><Image src={Sul} alt="Landscape picture" width={300} height={200} /></li>
-                        <li className="card"><Image src={Caloi} alt="Landscape picture" width={300} height={200} /></li>
-                        <li className="card"><Image src={Alelo} alt="Landscape picture" width={300} height={200} /></li>
-                        <li className="card"><Image src={Sumup} alt="Landscape picture" width={300} height={200} /></li>
+                        <Image src={Sul} alt="Landscape picture" width={300} height={200} className='card efeito'/>
+                        <Image src={Caloi} alt="Landscape picture" width={300} height={200} className='card efeito' />
+                        <Image src={Alelo} alt="Landscape picture" width={300} height={200} className='card efeito'/>
+                        <Image src={Sumup} alt="Landscape picture" width={300} height={200} className='card efeito'/>
                     </ul>
                 </div>
             </main>

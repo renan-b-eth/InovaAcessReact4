@@ -11,14 +11,14 @@ const Header = () =>{
         <Image src={Logo} alt="Landscape picture" width={150} height={100} />
         <nav>
             <ul>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#industrias">Indústrias</a></li>
-                <li><a href="#aprendizado">Aprendizado & Recursos</a></li>
-                <li><a href="#suporte">Suporte</a></li>
-                <li><a href="#empresa">Empresa</a></li>
-                <li><a href="#acessibilidade">Acessibilidade</a></li>
-                <li><a href="#integrantes">Integrantes</a></li>
-                <li><a href="#login">Login</a></li>
+                <li><a href="/Produto">Produtos</a></li>
+                <li><a href="/Industrias">Indústrias</a></li>
+                <li><a href="/Aprendizado">Aprendizado & Recursos</a></li>
+                <li><a href="/Suporte">Suporte</a></li>
+                <li><a href="/Empresa">Empresa</a></li>
+                <li><a href="/Acessibilidade">Acessibilidade</a></li>
+                <li><a href="/Integrantes">Integrantes</a></li>
+                <li><a href="/Login">Login</a></li>
             </ul>
         </nav>
     </header>

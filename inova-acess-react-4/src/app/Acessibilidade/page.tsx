@@ -1,12 +1,12 @@
-const Main = () =>{
+const Acessibilidade = () =>{
     return(
         <>
             <main>
                 <div className="content">
-                    <h1>MAIN</h1>
+                    <h1>Acessibilidade</h1>
                 </div>
             </main>
         </>
     )
 }
-export default Main;
+export default Acessibilidade;

@@ -1,12 +1,12 @@
-const Main = () =>{
+const Empresa = () =>{
     return(
         <>
-            <footer>
+            <main>
                 <div className="content">
-                    <h1>FOOTER</h1>
+                    <h1>EMPRESA</h1>
                 </div>
-            </footer>
+            </main>
         </>
     )
 }
-export default Main;
+export default Empresa;

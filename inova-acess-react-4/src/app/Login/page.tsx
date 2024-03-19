@@ -1,12 +1,20 @@
-const Main = () =>{
+import Footer from "../Footer/page";
+import Header from "../Header/page";
+
+const Login = () =>{
     return(
         <>
-            <footer>
-                <div className="content">
-                    <h1>FOOTER</h1>
+            <Header></Header>
+            <main>
+                <div className="content-login">
+                    <h1>LOGIN</h1>
                 </div>
-            </footer>
+            </main>
+            <section id="footer">
+            <Footer></Footer>
+
+            </section>
         </>
     )
 }
-export default Main;
+export default Login;

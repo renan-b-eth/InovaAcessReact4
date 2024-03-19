@@ -86,6 +86,8 @@ main p {
     text-align: center;
 }
 
+
+
 #clientes h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -123,4 +125,20 @@ main p {
 }
 .position-einten{
   float: right;
+}
+
+.efeito{
+  transition: all .5s;
+  border: 10px solid transparent;
+}
+.efeito:hover{
+  border: 10px solid #136497;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  text-align: center;
 }

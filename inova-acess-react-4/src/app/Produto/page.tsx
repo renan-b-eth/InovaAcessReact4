@@ -1,12 +1,12 @@
-const Footer = () =>{
+const Produto = () =>{
     return(
         <>
-            <footer>
+            <main>
                 <div className="content">
-                    <h1>FOOTER</h1>
+                    <h1>Produto</h1>
                 </div>
-            </footer>
+            </main>
         </>
     )
 }
-export default Footer;
+export default Produto;
