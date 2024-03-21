@@ -1,0 +1,16 @@
+.card-integrantes{
+    /*background-color: red;*/
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.content-card{
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.descricao{
+    /*background-color: blueviolet;*/
+}
