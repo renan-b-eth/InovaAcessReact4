@@ -14,7 +14,7 @@ const Footer = () =>{
                 <a href="#">Preferências de cookies </a>
             </p>*/}
             <p>
-                © Copyright 2022 Salesforce, Inc.
+                © Copyright 2024 Salesforce, Inc.
             </p>
             {/*<p>
                 Todos os direitos reservados. Várias marcas registradas pertencem a seus respectivos proprietários.
