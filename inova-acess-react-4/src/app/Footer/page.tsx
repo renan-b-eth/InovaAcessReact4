@@ -13,7 +13,7 @@ const Footer = () =>{
                 <a href="#">Contato </a> 
                 <a href="#">Preferências de cookies </a>
             </p>*/}
-            <p>
+            <p className='rodape'>
                 © Copyright 2024 Salesforce, Inc.
             </p>
             {/*<p>

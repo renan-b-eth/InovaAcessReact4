@@ -25,16 +25,11 @@ export default function Home() {
             <button className="button-azul">Saiba Mais</button>
         </section>
       </main>
-
-      <h2 className="pad">Clientes</h2>
-      <p className="pad">Veja alguns dos nossos clientes:</p>
-            <p>
-                <a href="#">Explore todas as histórias de sucesso</a><br></br>
-            </p>
       <section id="clientes">
-            <Card></Card>
-        <Footer></Footer>
+        <p className="pad">CLIENTES</p>
       </section>
+        <Card></Card>
+      <Footer></Footer>
     </>
   );
 }

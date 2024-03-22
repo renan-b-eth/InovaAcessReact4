@@ -14,4 +14,7 @@
     justify-content: center;
     display: flex;
     flex-flow: row wrap;
+    position: relative;
+    bottom: 92px;
+    height: 110px;
 }
