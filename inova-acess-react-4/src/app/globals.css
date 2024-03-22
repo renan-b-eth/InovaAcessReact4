@@ -12,7 +12,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #0072c6;
+  color: #032D60;
 }
 
 a:hover {
@@ -129,10 +129,10 @@ main p {
 
 .efeito{
   transition: all .5s;
-  border: 10px solid transparent;
+  border: 5px solid transparent;
 }
 .efeito:hover{
-  border: 10px solid #136497;
+  border: 5px solid #136497;
   border-radius: 50%;
   cursor: pointer;
 }

@@ -1,5 +1,17 @@
 .card{
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    background-color: white;
+    align-self: center;
+    margin-right: 60px;
+}
+.imagem-res{
+    width: 80px;
+    height: 80px;
+}
+.content2{
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
 }
