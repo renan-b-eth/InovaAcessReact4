@@ -8,7 +8,7 @@ import PrecisaAcessibilidade from "./PrecisaAcessibilidade/page";
 export default function Home() {
   return (
     <>
-      <PrecisaAcessibilidade></PrecisaAcessibilidade>
+      {/*<PrecisaAcessibilidade></PrecisaAcessibilidade>*/}
       <Header></Header>
       <main>
       <Image src={Einsten} alt="Landscape picture" className="position-einten efeito2" />

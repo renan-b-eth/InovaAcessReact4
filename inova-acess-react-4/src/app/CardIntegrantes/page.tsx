@@ -11,9 +11,9 @@ const CardIntegrantes = () =>{
             <main>
                 <div className="content-card">
                     <div className="card-integrantes"><Image src={Renan} alt="Landscape picture" width={250} height={250} className='card efeito'/></div>
-                    <div className="descricao"><p>RENAN BEZERRA DOS SANTOS RM - 553228</p><br></br><p>DESCRICAO 2</p></div>
+                    <div className="descricao"><p>RENAN BEZERRA DOS SANTOS</p><p>RM - 553228</p></div>
                     <div className="card-integrantes"><Image src={Lucas} alt="Landscape picture" width={250} height={250} className='card efeito'/></div>
-                    <div className="descricao"><p>LUCAS ALCANTARA RM - 545578</p><br></br><p>DESCRICAO 2</p></div>
+                    <div className="descricao"><p>LUCAS ALCÂNTARA CARVALHO</p><p>RM - 95111</p></div>
                 </div>
             </main>
         </>
