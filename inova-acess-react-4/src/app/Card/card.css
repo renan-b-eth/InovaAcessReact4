@@ -4,17 +4,13 @@
     border-radius: 50%;
     background-color: white;
     align-self: center;
-    margin-right: 59px;
+    margin-right: 60px;
 }
-.imagem-res{
-    width: 80px;
-    height: 80px;
-}
+
 .content2{
     justify-content: center;
     display: flex;
-    flex-flow: row wrap;
     position: relative;
-    bottom: 92px;
+    bottom: 120px;
     height: 110px;
 }
