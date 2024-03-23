@@ -13,22 +13,20 @@ export default function Home() {
       <main>
       <Image src={Einsten} alt="Landscape picture" className="position-einten efeito2" />
         <section id="intro">
-            <h2>Bem-vindo à Salesforce</h2>
-            <p>Potencialize sua empresa com a Salesforce. 98% dos clientes superam suas metas de ROI.</p>
             <h2>CRESÇA, CONECTE-SE, CONQUISTE. POTENCIALIZE SUA EMPRESA COM A SALESFORCE</h2>
-            <button className="button-azul">Teste Grátis</button>
-            <button className="button-borda">Teste Grátis</button>
+            <button className="button-azul">Empresa</button>
+            <button className="button-borda">Suporte</button>
         </section>
         <section id="produtos">
-            <h2>Produtos</h2>
             <p>Saiba mais sobre nossos produtos e serviços.</p>
-            <button className="button-azul">Saiba Mais</button>
         </section>
       </main>
       <section id="clientes">
-        <p className="pad">CLIENTES</p>
-      </section>
+        <br></br>
+        <br></br>
+        <br></br>
         <Card></Card>
+      </section>
       <Footer></Footer>
     </>
   );
