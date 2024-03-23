@@ -1,0 +1,32 @@
+
+.content-card2{
+    /*background-color: blue;*/
+    display: flex;
+    text-align: center;
+}
+
+.card-acessibilidade{
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid blue;
+}
+
+.card-acessibilidade2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+
+.acesse{
+    position: relative;
+    top: 100px;
+    left: -100px;
+}
+
+

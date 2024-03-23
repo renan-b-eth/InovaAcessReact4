@@ -1,14 +1,16 @@
 import CardAcessibilidadePrincipal from "../CardAcessibilidadePrincipal/page";
 import Footer from "../Footer/page";
 import Header from "../Header/page";
+import './acessibilidadeferramentas.css'
 
-const Acessibilidade = () =>{
+const AcessibilidadeFerramentas = () =>{
     return(
         <>
             <Header></Header>
             <main>
-                <div className="content-acessibilidade">
-                    <h1>ACESSIBILIDADE</h1>
+                <div className="content-acessibilidade3">
+                    <h1>ACESSIBILIDADE FERRAMENTAS</h1>
+                    <CardAcessibilidadePrincipal></CardAcessibilidadePrincipal>
                     <CardAcessibilidadePrincipal></CardAcessibilidadePrincipal>
                 </div>
             </main>
@@ -19,4 +21,4 @@ const Acessibilidade = () =>{
         </>
     )
 }
-export default Acessibilidade;
+export default AcessibilidadeFerramentas;
