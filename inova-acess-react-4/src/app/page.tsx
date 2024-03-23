@@ -4,6 +4,7 @@ import Card from "./Card/page";
 import Einsten from './img/einsten.png'
 import Footer from "./Footer/page";
 import PrecisaAcessibilidade from "./PrecisaAcessibilidade/page";
+import Sales from "./img/sales.png"
 
 export default function Home() {
   return (
@@ -11,14 +12,17 @@ export default function Home() {
       {/*<PrecisaAcessibilidade></PrecisaAcessibilidade>*/}
       <Header></Header>
       <main>
-      <Image src={Einsten} alt="Landscape picture" className="position-einten efeito2" />
+      <Image src={Einsten} alt="Eisten Pensador" className="position-einten efeito2" />
         <section id="intro">
-            <h2>CRESÇA, CONECTE-SE, CONQUISTE. POTENCIALIZE SUA EMPRESA COM A SALESFORCE</h2>
+            <h2>CRESÇA, CONECTE-SE</h2>
+            <h2>CONQUISTE!</h2>
+            <br></br>
+            <h3>POTENCIALIZE COM</h3>
+            <Image src={Sales} alt="Letra Destaque Salesforce" className="position-sales"/>
+            <br></br>
+            <br></br>
             <button className="button-azul">Empresa</button>
             <button className="button-borda">Suporte</button>
-        </section>
-        <section id="produtos">
-            <p>Saiba mais sobre nossos produtos e serviços.</p>
         </section>
       </main>
       <section id="clientes">
