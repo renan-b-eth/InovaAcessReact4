@@ -36,6 +36,7 @@ a:hover {
   padding: 10px 25px;
   border: none;
   border-radius: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .button-borda{
@@ -44,6 +45,7 @@ a:hover {
   padding: 10px 25px;
   border-radius: 49px;
   cursor: pointer;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button:hover {
@@ -70,6 +72,7 @@ nav ul {
 
 nav li {
   margin-right: 60px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {

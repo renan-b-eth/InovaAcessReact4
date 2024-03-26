@@ -1,0 +1,46 @@
+.content-empresa {
+    background-image: linear-gradient(50deg, #ffffff, #72aef728);
+}
+
+.content-empresa h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #032D60;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-empresa h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #032D60;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-empresa p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.container-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+.lista-pqs {
+    list-style-type: none;
+}
+   
+   
