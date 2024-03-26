@@ -21,8 +21,8 @@ export default function Home() {
             <Image src={Sales} alt="Letra Destaque Salesforce" className="position-sales"/>
             <br></br>
             <br></br>
-            <button className="button-azul">Empresa</button>
-            <button className="button-borda">Suporte</button>
+            <a href="\Empresa" className="button-azul">Empresa</a>
+            <a href="\Suporte" className="button-borda">Suporte</a>
         </section>
       </main>
       <section id="clientes">
