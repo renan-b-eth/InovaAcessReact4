@@ -1,3 +1,4 @@
+import Coletagemclicks from '../ColetagemClicks/coletagemclicks';
 import './footer.css'
 
 const Footer = () =>{
@@ -24,6 +25,7 @@ const Footer = () =>{
                 <a href="tel:1-800-664-9073">Entre em contato (1-800-664-9073)</a>
             </p>*/}
         </footer>
+        <Coletagemclicks></Coletagemclicks>
         </>
     )
 }
