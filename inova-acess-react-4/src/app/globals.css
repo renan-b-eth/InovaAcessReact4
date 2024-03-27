@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
 }
@@ -21,12 +21,12 @@ a:hover {
 
 #intro h2{
   font-size: 70px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #intro h3 {
   font-size: 30px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -40,8 +40,8 @@ a:hover {
 }
 
 .button-borda{
-  border: 10px #0072c6;
-  color: #0072c6;
+  border: 10px #032D60;
+  color: #032D60;
   padding: 10px 25px;
   border-radius: 49px;
   cursor: pointer;
@@ -49,7 +49,7 @@ a:hover {
 }
 
 button:hover {
-  background-color: #0073c64d;
+  background-color: #032D60;
 }
 
 header {
@@ -146,7 +146,7 @@ main p {
 }
 
 .efeito:hover{
-  border: 5px solid #136497;
+  border: 5px solid #032D60;
   border-radius: 50%;
   cursor: pointer;
 }

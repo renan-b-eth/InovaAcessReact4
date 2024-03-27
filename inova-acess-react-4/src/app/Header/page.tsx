@@ -16,7 +16,6 @@ const Header = () =>{
             <ul>
                 <li><a href="/"><Image src={BtnHome} alt="Home" width={30} height={30} className='posicao-home'/></a></li>
                 <li><a href="/Empresa">Empresa</a></li>
-                <li><a href="/Suporte">Suporte</a></li>
                 <li><a href="/Acessibilidade">Acessibilidade</a></li>
                 <li><a href="/Integrantes">Integrantes</a></li>
                 <li><a href="/Login">Login</a></li>

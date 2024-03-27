@@ -11,7 +11,7 @@ const AcessibilidadeFerramentas = () =>{
             <Header></Header>
             <main>
                 <div className="content-acessibilidade3">
-                    <h1>ACESSIBILIDADE FERRAMENTAS</h1>
+                    <h1>Ferramentas Acessiveis</h1>
                     <AcessibilidadeCameraMouse></AcessibilidadeCameraMouse>
                     
                 </div>

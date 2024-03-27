@@ -24,7 +24,7 @@ export default function Home() {
             <br></br>
             <br></br>
             <a href="\Empresa" className="button-azul">Empresa</a>
-            <a href="\Suporte" className="button-borda">Suporte</a>
+            <a href="\Acessibilidade" className="button-borda">Acessibilidade</a>
         </section>
       </main>
       <section id="clientes">

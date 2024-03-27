@@ -1,6 +1,7 @@
 import CardAcessibilidadePrincipal from "../CardAcessibilidadePrincipal/page";
 import Footer from "../Footer/page";
 import Header from "../Header/page";
+import "./acessibilidade.css";
 
 const Acessibilidade = () =>{
     return(
@@ -8,7 +9,7 @@ const Acessibilidade = () =>{
             <Header></Header>
             <main>
                 <div className="content-acessibilidade">
-                    <h1>ACESSIBILIDADE</h1>
+                    <h1>Soluções de Acessibilidade</h1>
                     <CardAcessibilidadePrincipal></CardAcessibilidadePrincipal>
                 </div>
             </main>
