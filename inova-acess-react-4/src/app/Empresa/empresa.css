@@ -71,18 +71,18 @@ main {
 }
 
 .listas {
-    padding-left: 150px; /* Aumente o padding para dar espaço para o ícone */
+    padding-left: 150px;
 }
 
 
 
 .listas li {
-    padding-left: 50px; /* Aumente o padding para dar espaço para o ícone */
-    list-style-type: none; /* Remove o marcador de lista padrão */
+    padding-left: 50px;
+    list-style-type: none;
     background-repeat: no-repeat;
-    background-position: 0px; /* Posiciona o ícone à esquerda e centralizado verticalmente */
-    background-size: 30px 30px; /* Ajuste o tamanho conforme necessário */
-    margin-bottom: -20px; /* Adiciona espaço entre os itens da lista */
+    background-position: 0px;
+    background-size: 30px 30px;
+    margin-bottom: -20px;
 }
 
 .listas .lupa {

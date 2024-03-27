@@ -1,6 +1,7 @@
 import CardIntegrantes from "../CardIntegrantes/page";
 import Footer from "../Footer/page";
 import Header from "../Header/page";
+import "./integrantes.css";
 
 
 const Integrantes = () =>{
@@ -9,7 +10,7 @@ const Integrantes = () =>{
             <Header></Header>
             <main>
                 <div className="content-integrantes">
-                    <h1>INTEGRANTES</h1>
+                    <h1>Integrantes</h1>
                     <CardIntegrantes></CardIntegrantes>
                 </div>
             </main>

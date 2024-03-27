@@ -13,13 +13,15 @@ const AcessibilidadeCameraMouse = () =>{
         <>
              <main>
                 <div className="content-card2">
-                    <div className="card-acessibilidade">CAMERA MOUSE
+                    <div className="card-acessibilidade">
+                        <h3>Câmera Mouse</h3>
                         <Image src={Mouse} alt="LogoAcess" width={120} height={120} className="card-acessibilidade2"/>
-                        <a href="\CameraMouse" className='acesse'>ACESSE</a>
+                        <a href="\CameraMouse" className='acesse'>Acesse</a>
                     </div>
-                    <div className="card-acessibilidade">TECLADO VIRTUAL
+                    <div className="card-acessibilidade">
+                        <h3>Teclado Virtual</h3>
                         <Image src={Teclado} alt="LogoAcess" width={120} height={120} className="card-acessibilidade2"/>
-                        <a href="\TecladoVirtual" className='acesse'>ACESSE</a>
+                        <a href="\TecladoVirtual" className='acesse'>Acesse</a>
                     </div>
                 </div>
             </main>
