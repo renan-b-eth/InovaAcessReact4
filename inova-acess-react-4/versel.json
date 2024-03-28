@@ -1,0 +1,17 @@
+{
+ "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+ ],
+ "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+ ],
+ "scripts": {
+    "build": "npm install && npm run build"
+ }
+}
