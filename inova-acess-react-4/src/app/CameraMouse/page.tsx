@@ -8,7 +8,7 @@ const CameraMouse = () =>{
             <Header></Header>
             <main>
                 <div className="content-camera-mouse">
-                    <h1>CameraMouse</h1>
+                    <h1>Camera Mouse</h1>
                 </div>
             </main>
             <section id="footer">

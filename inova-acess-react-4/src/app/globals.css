@@ -99,44 +99,10 @@ main p {
     height: 200px;
 }
 
-
-{/*#clientes ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
-
-#clientes li {
-    margin: 0 1rem;
-}
-
-#clientes a {
-    color: #0072c6;
-    margin: 0 1rem;
-}
-
-#clientes a:hover {
-    text-decoration: underline;
-}
-
-#clientes p {
-    margin-bottom: 0;
-}
-
-.pad{
-  padding: 50px;
-}
-
-.card2{
-  background-color: aqua;
-}*/}
-
-
 .position-einten{
   float: right;
-  width: 900px;
-  height: 600px;
+  width: 600px;
+  height: 500px;
   
 }
 

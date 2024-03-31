@@ -17,13 +17,9 @@ const Footer = () =>{
             <p className='rodape'>
                 © Copyright 2024 Salesforce, Inc.
             </p>
-            {/*<p>
-                Todos os direitos reservados. Várias marcas registradas pertencem a seus respectivos proprietários.
+            <p className='rodape2'>
                 Salesforce, Inc. Salesforce Tower 415 Mission Street 3rd Floor, San Francisco, CA 94105, United States
             </p>
-            <p>
-                <a href="tel:1-800-664-9073">Entre em contato (1-800-664-9073)</a>
-            </p>*/}
         </footer>
         <Coletagemclicks></Coletagemclicks>
         </>
