@@ -105,6 +105,73 @@ main {
     background-image: url("../img/raio.png");
 }
 
+/* Estilos padrão para celulares */
+@media (max-width: 480px) {
+    body {
+       
+    }
+    .position-sales{
+        position: relative;
+        right: 100px;
+    }
+    .tamanho-imagem-pqs{
+        width: 230px;
+        height: 230px;
+    }
+    .sobre-imagem{
+        width: 450px;
+        height: 400px;
+    }
+    
+}
+
+/* Estilos para tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        
+    }
+    .position-sales{
+        position: relative;
+        right: 50px;
+    }
+    .tamanho-imagem-pqs{
+        width: 230px;
+        height: 230px;
+    }
+    .sobre-imagem{
+        width: 400px;
+        height: 400px;
+    }
+    .rodape{
+        position: relative;
+        top: 4500px;
+        color: white;
+      }
+      .rodape2{
+        position: relative;
+        top: 4200px;
+        left: -200px;
+        
+      }
+      .cor {
+        color: white;
+      }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+       
+    }
+}
+
+/* Estilos para ultrawide */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
+}
+
 
 
 

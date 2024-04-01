@@ -14,7 +14,7 @@ const Card = () =>{
         <>
             <main>
                 <div className="content2">
-                    <ul>
+                    <ul className='cardResponsivo'>
                         <Image src={Sul} alt="LogoSulamerica" width={300} height={200} className='card efeito'/>
                         <Image src={Caloi} alt="LogoCaloi picture" width={300} height={200} className='card efeito' />
                         <Image src={Alelo} alt="LogoAlelo picture" width={300} height={200} className='card efeito'/>

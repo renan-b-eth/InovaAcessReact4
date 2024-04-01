@@ -16,7 +16,7 @@ export default function Home() {
       <main>
       <Image src={Einsten} alt="Eisten Pensador" className="position-einten efeito2" />
         <section id="intro">
-            <h2>CRESÇA, CONECTE-SE</h2>
+            <span className="tamanhofonte"><h2 className="fonte-tamanho">CRESÇA, CONECTE-SE</h2></span>
             <h2>CONQUISTE!</h2>
             <br></br>
             <h3>POTENCIALIZE COM</h3>

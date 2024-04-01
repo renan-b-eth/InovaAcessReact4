@@ -12,7 +12,7 @@ const Empresa = () =>{
                 <main>
                     <div className="content-empresa">
                         <h1>O que é a Salesforce?</h1>
-                        <p>A Salesforce é uma empresa de softwares que foca na solução de gerenciamento de relacionamento para aproximar empresas e pessoas. 
+                        <p className="position-sales">A Salesforce é uma empresa de softwares que foca na solução de gerenciamento de relacionamento para aproximar empresas e pessoas. 
                         É uma plataforma de CRM integrada que oferece a todos os departamentos uma visão única e compartilhada de cada cliente.
                         </p>
                         <div className="container-imagem">
@@ -31,7 +31,7 @@ const Empresa = () =>{
                             </ul>
                         </div>
                         <div className="imagem-pqs">
-                            <Image src={PQS} alt="Porques"/>
+                            <Image src={PQS} alt="Porques" className="tamanho-imagem-pqs"/>
                         </div>
                     </div>
                 </main>

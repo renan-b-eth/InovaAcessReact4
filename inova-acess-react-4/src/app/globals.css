@@ -8,6 +8,7 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
+  
 }
 
 a {
@@ -115,4 +116,129 @@ main p {
   border: 5px solid #032D60;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* Estilos padrão para celulares */
+@media (max-width: 480px) {
+  body {
+    
+    
+  }
+  .menor{
+    display: inline-block;
+  }
+  .position-einten{
+    width: 300px;
+    height: 300px;
+  }
+  .fonte-tamanho{
+    font-size: 10px;
+    
+  }
+  .content2{
+    
+  }
+  .card2{
+    height: 300px;
+    width: 300px;
+  }
+  .cardResponsivo{
+  }
+  .rodape{
+    position: relative;
+    top: 900px;
+    display: none;
+  }
+  .rodape2{
+    position: relative;
+    top: 600px;
+    color: yellow;
+    
+  }
+  .cor {
+    color: white;
+
+  }
+  p{
+  }
+  .fonte-tamanho{
+    font-size: 5px;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+      
+  }
+
+  .menor{
+    display: inline-block;
+  }
+  .position-einten{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    right: 100px;
+  }
+  .fonte-tamanho{
+    font-size: 10px;
+    
+  }
+  .content2{
+    
+  }
+  .card2{
+    height: 300px;
+    width: 300px;
+  }
+  .cardResponsivo{
+  }
+  .rodape{
+    position: relative;
+    top: 100px;
+    display: none;
+  }
+  .rodape2{
+    position: relative;
+    top: 100px;
+    color: yellow;
+    
+  }
+  .cor {
+
+  }
+  p{
+  }
+  .fonte-tamanho{
+    font-size: 5px;
+  }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  body {
+     
+  }
+  .position-einten{
+    width: 450px;
+    height: 450px;
+  }
+  .rodape{
+    position: relative;
+    top: 100px;
+    display: none;
+  }
+  .rodape2{
+    position: relative;
+    top: 100px;
+    
+  }
+}
+
+/* Estilos para ultrawide */
+@media (min-width: 1281px) {
+  body {
+      background-color: white;
+  }
 }
