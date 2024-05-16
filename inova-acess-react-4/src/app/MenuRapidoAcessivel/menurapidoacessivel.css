@@ -1,0 +1,82 @@
+.quick-access-menu {
+    position: fixed; /* Position the menu */
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure menu is above other elements */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quick-access-menu button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quick-access-menu button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .menu-content {
+    display: none; /* Initially hide the menu content */
+    margin-top: 10px;
+  }
+  
+  .quick-access-menu.is-open .menu-content {
+    display: block; /* Show the menu content when open */
+  }
+  
+  .access-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+  
+  .access-item:last-child {
+    border-bottom: none;
+  }
+  
+  .access-item i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .access-item span {
+    font-size: 16px;
+  }
+  
+  .access-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .access-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .quick-access-menu {
+      top: 10px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  
+    .access-item {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px 0;
+    }
+  
+    .access-item i {
+      margin-bottom: 5px;
+    }
+  }

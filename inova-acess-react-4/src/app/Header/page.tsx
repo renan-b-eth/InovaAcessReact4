@@ -4,10 +4,12 @@ import './header.css';
 import Logo from '../img/saleslogo.png'
 import BtnHome from '../img/botao-home.png'
 import VLibras from '../VLibras/page';
+import MenuRapidoAcessivel from '../MenuRapidoAcessivel/page';
 
 const Header = () =>{
     return(
         <>
+        
         <VLibras></VLibras>
         <div className="content">
         <header>
@@ -19,6 +21,14 @@ const Header = () =>{
                 <li><a href="/Acessibilidade">Acessibilidade</a></li>
                 <li><a href="/Integrantes">Integrantes</a></li>
                 <li><a href="/Login">Login</a></li>
+                <li><a href="/Cadastro">Cadastro</a></li>
+                <li><a href="/AcessoRapido">Acesso rapido</a>
+                    <select>
+                        <option>Acessibilidade</option>
+                        <option>Acessibilidade 2</option>
+                        <option>Acessibilidade 3</option>
+                    </select>
+                </li>
             </ul>
         </nav>
     </header>
