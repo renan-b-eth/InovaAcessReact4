@@ -6,12 +6,13 @@ import Footer from "./Footer/page";
 import PrecisaAcessibilidade from "./PrecisaAcessibilidade/page";
 import Sales from "./img/sales.png"
 import Coletagemclicks from "./ColetagemClicks/coletagemclicks";
+import MenuAcessivel from "./MenuAcessivel/page";
 
 export default function Home() {
   return (
     <>
       {/*<PrecisaAcessibilidade></PrecisaAcessibilidade>*/}
-      
+      <MenuAcessivel></MenuAcessivel>
       <Header></Header>
       <main>
       <Image src={Einsten} alt="Eisten Pensador" className="position-einten efeito2" />

@@ -1,0 +1,13 @@
+.button {
+    background-color: #ccc;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button.is-active {
+    background-color: #007bff;
+    height: 500px;
+    color: white;
+  }
+ 
