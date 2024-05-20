@@ -9,6 +9,7 @@ const Header = () =>{
     return(
         <>
         
+
         <div className="content">
         <header>
         <a href="/"><Image src={Logo} alt="Landscape picture" width={150} height={100} /></a>
