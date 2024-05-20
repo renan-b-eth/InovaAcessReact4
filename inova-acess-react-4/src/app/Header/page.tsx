@@ -3,14 +3,12 @@ import Image from "next/image";
 import './header.css';
 import Logo from '../img/saleslogo.png'
 import BtnHome from '../img/botao-home.png'
-import VLibras from '../VLibras/page';
 import MenuRapidoAcessivel from '../MenuRapidoAcessivel/page';
 
 const Header = () =>{
     return(
         <>
         
-        <VLibras></VLibras>
         <div className="content">
         <header>
         <a href="/"><Image src={Logo} alt="Landscape picture" width={150} height={100} /></a>
