@@ -11,8 +11,7 @@ const Cadastro = () => {
     const [senha, setSenha] = useState('');
     const [senha2, setSenha2] = useState('');
   
-    const handleSubmit = async (event) => {
-      event.preventDefault();
+    const handleSubmit = async() => {
   
       const novoAdmin = {
         nome,
